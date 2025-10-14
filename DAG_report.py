@@ -24,13 +24,11 @@ connection = {
     'user': 'student',
     'password': 'dpo_python_2020'
 }
-my_token = '7898888628:AAHJG6503_h_BrdIg1sUewzaSw1EYOni' # здесь пишем токен бота
+my_token = '7898888628:AAHJG6503_h_BrdIg1sUewzaSw1EYO' # здесь пишем токен бота
 
 # Отправляем в канал
 chat_id = -10026142972
 
-# Отправляем в личный чат (раскомментировать эту строку и закомментировать предыдущую)
-# chat_id = 66568594
 
 @dag(default_args=default_args, schedule_interval=schedule_interval, catchup=False)
 def n_galina_report():
